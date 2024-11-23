@@ -6,57 +6,86 @@
         <!--TODO-->
     </head>
     <body>
-        <h1>>Chicken</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Male_and_female_chicken_sitting_together.jpg/220px-Male_and_female_chicken_sitting_together.jpg" alt="chicken">
-        <a href="https://www.google.com">I am a Link to Google!!!</a>
-        <a href="about.html">About Me</a>
-        <p>
-        The <b>chicken</b> (Gallus domesticus) is a large and round short-winged bird, domesticated from the red junglefowl of Southeast Asia around 8,000 years ago. Most chickens are raised for food, providing meat and <a href="https://en.wikipedia.org/wiki/Egg_as_food">eggs</a>; others are kept as pets or for cockfighting.
-        </p>
+        <!--Entities-->
+        <!--파싱 과정에서 의미 있는 것으로 해석될 여지가 있는 <, >, &에 대한 표현법-->
+        &lt; &gt; &amp;
+        <!--시멘틱 요소를 사용하는 이유는 medium 사이트를 개발자 도구로 열어보면 이해가 될 것이다...-->
+        <!--nav 시멕틱 요소 사용-->
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="home">Home</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+        </nav>
+        <!--main 시멘틱 요소 사용-->
+        <main>
+            <!--sup 사용-->
+            <h1>Chicken<sup><a href="source">[1]</a></sup></h1>
+            <!--hr 사용-->
+            <hr>
+            <!--sub 사용-->
+            <h2>I like H<sub>2</sub>O</h2>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <p>
+                <!--br 사용-->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Male_and_female_chicken_sitting_together.jpg/220px-Male_and_female_chicken_sitting_together.jpg" alt="chicken">
+            <a href="https://www.google.com">I am a Link to Google!!!</a>
+            <a href="about.html">About Me</a>
+            <p>
+            The <b>chicken</b> (Gallus domesticus) is a large and round short-winged bird, domesticated from the red junglefowl of Southeast Asia around 8,000 years ago. Most chickens are raised for food, providing meat and <a href="https://en.wikipedia.org/wiki/Egg_as_food">eggs</a>; others are kept as pets or for cockfighting.
+            </p>
 
-        <p>
-        Chickens are common and widespread domestic animals, with a total population of 26.5 billion as of 2023, and an annual production of more than 50 billion birds. A hen bred for laying can produce over 300 eggs per year. There are numerous cultural references to chickens in folklore, religion, and literature.
-        </p>
+            <p>
+            Chickens are common and widespread domestic animals, with a total population of 26.5 billion as of 2023, and an annual production of more than 50 billion birds. A hen bred for laying can produce over 300 eggs per year. There are numerous cultural references to chickens in folklore, religion, and literature.
+            </p>
 
-        <h2>Nomenclature</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate laudantium iste magni sequi quo ex voluptatem nam placeat, voluptatibus nostrum itaque dolores provident fuga, officia dignissimos quasi dolor sit praesentium.</p>
+            <h2>Nomenclature</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate laudantium iste magni sequi quo ex voluptatem nam placeat, voluptatibus nostrum itaque dolores provident fuga, officia dignissimos quasi dolor sit praesentium.</p>
 
-        <h2>Description</h2>
-        <h3>Behavoir</h3>
-        <h4>Social behavior</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt facere ipsam enim quo quasi velit magnam? Recusandae ut dolor optio, cumque, sit asperiores voluptatem, sint alias minima architecto deserunt.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, neque velit odit cupiditate quae mollitia? Veniam, quidem repudiandae ipsum incidunt animi ipsam laboriosam consectetur repellendus, officia, doloribus dolorum inventore fuga.
-            Magni consequuntur nulla labore, saepe optio sapiente earum facere, velit debitis fuga incidunt dicta deleniti aspernatur minus. Amet, quasi excepturi inventore, quae molestias beatae veniam explicabo nulla nesciunt ex laudantium?
-            Dolores numquam illo tenetur placeat totam nisi, nulla ducimus aspernatur dolor assumenda qui natus ad magni atque ut, hic ea, odio officia. Odit cum reiciendis culpa itaque molestias deleniti obcaecati.
-        </p>
-        <h2>Breeds of Chickens</h2>
-        <ul>
-            <li>Bantam
-                <ul>
-                    <li>Silkie</li>
-                    <li>Polish</li>
-                </ul>
-            </li>
-            <li>Stadard
-                <ul>
-                    <li>Easter Egger</li>
-                    <li>Rhode Island Red</li>
-                </ul>
-            </li>
-        </ul>
-        <ol>
-            <li>Bantam
-                <ol>
-                    <li>Silkie</li>
-                    <li>Polish</li>
-                </ul>
-            </li>
-            <li>Stadard
-                <ol>
-                    <li>Easter Egger</li>
-                    <li>Rhode Island Red</li>
-                </ol>
-            </li>
-        </ol>
+            <h2>Description</h2>
+            <h3>Behavoir</h3>
+            <h4>Social behavior</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt facere ipsam enim quo quasi velit magnam? Recusandae ut dolor optio, cumque, sit asperiores voluptatem, sint alias minima architecto deserunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, neque velit odit cupiditate quae mollitia? Veniam, quidem repudiandae ipsum incidunt animi ipsam laboriosam consectetur repellendus, officia, doloribus dolorum inventore fuga.
+                Magni consequuntur nulla labore, saepe optio sapiente earum facere, velit debitis fuga incidunt dicta deleniti aspernatur minus. Amet, quasi excepturi inventore, quae molestias beatae veniam explicabo nulla nesciunt ex laudantium?
+                Dolores numquam illo tenetur placeat totam nisi, nulla ducimus aspernatur dolor assumenda qui natus ad magni atque ut, hic ea, odio officia. Odit cum reiciendis culpa itaque molestias deleniti obcaecati.
+            </p>
+            <h2>Breeds of Chickens</h2>
+            <ul>
+                <li>Bantam
+                    <ul>
+                        <li>Silkie</li>
+                        <li>Polish</li>
+                    </ul>
+                </li>
+                <li>Stadard
+                    <ul>
+                        <li>Easter Egger</li>
+                        <li>Rhode Island Red</li>
+                    </ul>
+                </li>
+            </ul>
+            <ol>
+                <li>Bantam
+                    <ol>
+                        <li>Silkie</li>
+                        <li>Polish</li>
+                    </ul>
+                </li>
+                <li>Stadard
+                    <ol>
+                        <li>Easter Egger</li>
+                        <li>Rhode Island Red</li>
+                    </ol>
+                </li>
+            </ol>
+        </main>
     </body>
 </html>
