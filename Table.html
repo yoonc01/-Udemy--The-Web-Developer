@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h1>Heaviest Birds</h1>
+    <table>
+        <!--Table Head-->
+        <!--접근성을 위해 설정하는 편-->
+        <thead>
+            <!--tr은 Table row-->
+            <!--tr로 감싸져 있는 것이 한 행이다!-->
+            <tr>
+                <!--th는 Table Header-->
+                <th>Animal</th>
+                <th>Average Mass[kg(lb)]</th>
+                <th>Maximum Mass[kg(lb)]</th>
+                <th>Flighted</th>
+            </tr>
+        </thead>
+        <!--Table Body-->
+        <!--접근성을 위해 설정하는 편-->
+        <tbody>
+            <tr>
+                <!--MDN에 td는 Table Data라고 나옴-->
+                <td>Ostrich</td>
+                <td>104(230)</td>
+                <td>156.8(346)</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Somali Ostrich</td>
+                <td>90(200)</td>
+                <td>130(290)</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Wild Turkey</td>
+                <td>13.5(29.8)</td>
+                <td>39(86)</td>
+                <td>Yes</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>V2</h1>
+    <table>
+        <thead>
+            <!--
+            |Animal | Average Mass | Flighted|
+            |       |  KG   |  LB  |         |
+            Animal과 Flighted는 두 행을 하나로 처리하도록 하고 싶고
+            Average Mass는 아래 KG와 LB를 포함하도록 하기 위해
+            rowspan과 colspan을 이용한다. 
+            -->
+            <tr>
+                <!--rowspan="2"으로 두 행을 차지하도록 할 수 있다.-->
+                <th rowspan="2">Animal</th>
+                <!--colspan="2"으로 두 열을 차지하도록 할 수 있음-->
+                <th colspan="2">Average Mass</th>
+                <th rowspan="2">Flighted</th>
+            </tr>
+            <tr>
+                <th>KG</th>
+                <th>LB</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ostrich</td>
+                <td>104</td>
+                <td>230</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Somali Ostrich</td>
+                <td>90</td>
+                <td>200</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Wild Turkey</td>
+                <td>13.5</td>
+                <td>29.8</td>
+                <td>Yes</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
