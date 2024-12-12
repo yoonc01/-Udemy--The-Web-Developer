@@ -1,0 +1,49 @@
+/*모든 h2 태그에 적용*/
+h2 {
+    /*글자 색상 설정*/
+    color: indigo;
+    /*글자 정렬*/
+    text-align: center;
+    /*h2는 굵게 나오지만 font-weight로 굵기 조절 가능*/
+    font-weight: normal;
+    /*line-through, overline, blue underline*/
+    text-decoration: #F100F1 underline wavy;
+    /*자간 설정 가능*/
+    letter-spacing: 10px;
+    /*해당 폰트가 없으면 다음 폰트 적용*/
+    /*마지막은 백업으로 Generic한 친구를 사용하는 것이 일반적*/
+    font-family: Segoe UI, Futura, Arial;
+}
+
+a {
+    /*anchor tag의 파란 밑줄을 없애기 위해 많이 사용*/
+    text-decoration: none;
+}
+
+button {
+    color: magenta;
+    /*배경 색상 설정*/
+    background-color: cyan;
+}
+
+p {
+    /*색상 설정은 rgb로도 가능함
+    rgb는 red, green, blue로 빛의 삼원색임
+    각각 0 ~ 255의 숫자임
+    참고로 색의 삼원색은 Magenta, Yellow, Cyan임!
+    */
+    color: rgb(0, 128, 128);
+    /*16진법으로 각각의 rgb 표현 가능*/
+    background-color: #FFFFFF;
+    text-align: right;
+    /*줄 높이 숫자만 작성하면 font-size의 배수로 적용*/
+    line-height: 2;
+}
+
+body {
+    /*
+    같은 문자가 반복되면 3글자로 줄일 수 있음
+    아래는 CC55EE를 줄인 것임
+    */
+    background-color: #C5E;
+}
