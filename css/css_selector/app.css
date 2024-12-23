@@ -71,3 +71,43 @@ footer > a {
     color: #A8DADC;
 }
 
+/*
+* attribute selector
+* tag[attribute="something"] {}
+*/
+
+input[type="password"] {
+    color: green;
+}
+
+/*
+* same with section.post
+*/
+
+section[class="post"] {
+    background-color: purple;
+}
+
+/*
+* containing google
+*/
+a[href*="google"] {
+    color: magenta;
+}
+
+/*
+* muti attribute
+*/
+
+a[href*="google"][target="_blank"] {
+    color: magenta;
+}
+
+
+/*
+* ending ".org"
+*/
+
+a [href$=".org"] {
+    font-style: italic;
+}
