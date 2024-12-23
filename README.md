@@ -11,17 +11,17 @@
 6. [CSS 기초](#section6-css-기초)
 7. [CSS 선택자](#section7-css-선택자)
 
-### Section1(OT)
+### Section1 (OT)
 ---
 
-### Section2(웹 개발이란)
+### Section2 (웹 개발이란)
 - **내용**
   - 프론트와 백의 차이
   - HTML, CSS, JS의 역할
 
 ---
 
-### Section3(HTML 기초)
+### Section3 (HTML 기초)
 - **내용**
   - 기본적인 HTML 태그 학습:
     - `<a>`: 링크 생성
@@ -33,7 +33,7 @@
 
 ---
 
-### Section4(HTML 시멘틱 태그)
+### Section4 (HTML 시멘틱 태그)
 - **내용**
   - 블록과 인라인 요소 구분
   - 시멘틱 태그 학습: `<header>`, `<footer>`, `<section>`, `<article>` 등
@@ -42,7 +42,7 @@
 
 ---
 
-### Section5(HTML 폼과 테이블)
+### Section5 (HTML 폼과 테이블)
 - **내용**
   - input과 label로 연동
   - thead, tbody, tfoot
@@ -53,7 +53,7 @@
 
 ---
 
-### Section6(CSS 기초)
+### Section6 (CSS 기초)
 - **내용**
   - 기본 CSS 문법 학습
   - 색상과 배경 설정
@@ -63,7 +63,7 @@
 
 ---
 
-### Section7(CSS 선택자)
+### Section7 (CSS 선택자)
 - **내용**
   - CSS 선택자의 종류:
     - 기본 선택자: `*`, `element`
