@@ -35,3 +35,16 @@ h1, h2 {
     color: #F1FAEE;
     font-size: 16px;
 }
+
+/*
+*         descendant selector
+* space means anchor tag which are inside post class
+*/
+.post a {
+    color: #457B9D;
+}
+
+footer a {
+    color: #E63946;
+}
+
