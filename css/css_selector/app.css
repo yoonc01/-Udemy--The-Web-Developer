@@ -61,3 +61,13 @@ h2 + button {
     font-size: 20px;
     background-color: magenta;
 }
+
+/*
+* direct child selector
+*   a > b means tag b(s) that are direct children of a `a`
+*/
+
+footer > a {
+    color: #A8DADC;
+}
+
