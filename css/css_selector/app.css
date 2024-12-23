@@ -1,0 +1,15 @@
+/*universal selector*/
+* {
+    color: pink;
+}
+
+/*element selector*/
+button {
+    font-size: 30px;
+}
+
+/*select list*/
+h1, h2 {
+    background-color: darkslateblue;
+}
+
