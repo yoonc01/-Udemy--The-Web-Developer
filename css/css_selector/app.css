@@ -1,15 +1,26 @@
 /*universal selector*/
 * {
-    color: pink;
+    color: black;
 }
 
 /*element selector*/
 button {
+    background-color: #A8DADC;
     font-size: 30px;
+}
+
+body {
+    background-color: #F1FAEE;
 }
 
 /*select list*/
 h1, h2 {
+    color: #1D3557;
     background-color: darkslateblue;
 }
 
+/*id selector*/
+#signup {
+    background-color: #1D3557;
+    color: #F1FAEE;
+}
