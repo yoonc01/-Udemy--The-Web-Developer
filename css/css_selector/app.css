@@ -119,8 +119,8 @@ a [href$=".org"] {
 * use :
 */
 
-/*select any <button> element when "hovered"*/
-button:hover {
+/*select any <button> element which are in post class when "hovered"*/
+.post button:hover {
     background-color: #E63946;
     color: #F1FAEE;
 }
@@ -182,3 +182,36 @@ h1::after {
     content: " ★";
     color: gold;
 }
+
+/*
+* cascade(blue wins!)
+* the style declared later overrides earlier styles
+* same in css files
+*/
+
+h1 {
+    color: white;
+}
+
+h1 {
+    color: blue;
+}
+
+/*
+*   specificity
+*   how the brower decides which rules to apply
+*   when multiple rules could apply to the same element
+*   more specific wins
+*   ID > ClASS > ELEMENT
+*   specificity.png 참고
+*/
+.post button:hover {
+    background-color: #E63946;
+    color: #F1FAEE;
+}
+
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+}
+
