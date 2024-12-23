@@ -116,6 +116,7 @@ a [href$=".org"] {
 
 /*
 * pseudo classes
+* use :
 */
 
 /*select any <button> element when "hovered"*/
@@ -148,3 +149,36 @@ button:hover {
     background-color: #DFE8DC;
 }
 
+/*
+* pseudo elements
+* use :: but most of browers don't care
+*/
+
+h2::first-letter {
+    font-size: 50px;
+}
+/*브라우저에 보이는 첫 줄*/
+p::first-line {
+    color: purple;
+}
+
+/*하이라이트해서 표시하는 거(마우스로 드래그)*/
+::selection {
+    background-color: #FCBF49;
+}
+
+/*
+* ::selection과 *::selection은 우선 순위에서 차이가 있다.
+* 단순히 기본 스타일링을 원한 것이라면 ::selection으로 충분
+*/
+
+/*add content*/
+h1::before {
+    content: "★ ";
+    color: gold;
+}
+
+h1::after {
+    content: " ★";
+    color: gold;
+}
