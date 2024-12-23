@@ -42,6 +42,8 @@ h1, h2 {
 */
 .post a {
     color: #457B9D;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 footer a {
@@ -111,3 +113,38 @@ a[href*="google"][target="_blank"] {
 a [href$=".org"] {
     font-style: italic;
 }
+
+/*
+* pseudo classes
+*/
+
+/*select any <button> element when "hovered"*/
+button:hover {
+    background-color: #E63946;
+    color: #F1FAEE;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+/*when active(click and activated)*/
+.post button:active {
+    background-color: #02C39A;
+}
+
+/*select nth element*/
+.post:nth-of-type(2) {
+    background-color: #DFE8DC;
+}
+
+/*select every nth element*/
+.post:nth-of-type(2n) {
+    background-color: #DFE8DC;
+}
+
+/*odd numbers*/
+.post:nth-of-type(2n + 1) {
+    background-color: #DFE8DC;
+}
+
