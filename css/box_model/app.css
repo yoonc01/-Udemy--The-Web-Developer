@@ -7,6 +7,8 @@ div {
 h1 {
     background-color: pink;
     width: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
 }
 
 #one {
@@ -39,4 +41,16 @@ h1 {
     */
     border: 4px solid black;
     border-radius: 3%;
+}
+
+button {
+    /*
+    *       padding shorthand
+    *
+    *   Apply to all four sides (common)
+    *   vertical | horizontal (common)
+    *   top | horizontal | bottom
+    *   top | right | bottom | left
+    */
+    padding: 0 20px;
 }
