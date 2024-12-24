@@ -31,6 +31,7 @@ h1 {
     border-style: dashed;
     /*선언 순서가 중요함, border-color 앞에 선언되면 무시됨*/
     border-left-color: black;
+    margin: 200px;
 }
 
 #three {
@@ -43,14 +44,24 @@ h1 {
     border-radius: 3%;
 }
 
+/*
+*       padding shorthand
+*
+*   Apply to all four sides (common)
+*   vertical | horizontal (common)
+*   top | horizontal | bottom
+*   top | right | bottom | left
+*/
 button {
-    /*
-    *       padding shorthand
-    *
-    *   Apply to all four sides (common)
-    *   vertical | horizontal (common)
-    *   top | horizontal | bottom
-    *   top | right | bottom | left
-    */
     padding: 0 20px;
+}
+
+/*
+*   margin shorthand
+*   same with padding
+*/
+
+body {
+    /*erase default margin*/
+    margin: 0px;
 }
