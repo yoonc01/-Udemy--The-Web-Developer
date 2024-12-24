@@ -1,0 +1,51 @@
+section {
+    background-color: #6d6875;
+    width: 800px;
+    height: 800px;
+}
+
+div {
+    background-color: #e5989b;
+    /*parcentage of parent's attribute*/
+    /*commonly used*/
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    /*line-height has to be 200% of font-size*/
+    /*not commonly used*/
+    line-height: 200%;
+}
+
+h2 {
+    /*twice the font-size of parent element*/
+    font-size: 2em;
+    /*
+    * with other prooerties, 1em is equal to
+    * the computed font-size of the element itself
+    * margin-left : 1em; means margin-left: 60px;
+    */
+    margin-left: 1em;
+}
+
+p {
+    font-size:0.8em;
+}
+
+article {
+    font-size: 30px;
+}
+
+/*
+*   maintain the shape although the font-size of parent element changes
+*/
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: #2a9d8f;
+    color: white;
+}
