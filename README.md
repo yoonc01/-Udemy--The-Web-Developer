@@ -10,6 +10,7 @@
 5. [HTML 폼과 테이블](#section5-html-폼과-테이블)
 6. [CSS 기초](#section6-css-기초)
 7. [CSS 선택자](#section7-css-선택자)
+8. [CSS 박스 모델](#section8-css-박스-모델)
 
 ### Section1 (OT)
 ---
@@ -73,4 +74,18 @@
   - CSS 우선 순위
 - **관련 PR**
   - [CSS 선택자 PR](https://github.com/yoonc01/-Udemy--The-Web-Developer/pull/1)
+
+
+### Section8 (CSS 박스 모델)
+- **내용**
+  - box model의 속성(padding, margin, width, height, box-sizing)
+  - display 속성의 종류:
+    - inline
+    - block
+    - inline-block
+    - none
+  - 상대적 단위 em, rem
+
+- **관련 PR**
+  - [CSS 박스 모델 PR](https://github.com/yoonc01/-Udemy--The-Web-Developer/pull/2)
 
