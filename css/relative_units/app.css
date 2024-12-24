@@ -1,10 +1,10 @@
-section {
+#ems section {
     background-color: #6d6875;
     width: 800px;
     height: 800px;
 }
 
-div {
+#ems div {
     background-color: #e5989b;
     /*parcentage of parent's attribute*/
     /*commonly used*/
@@ -12,7 +12,7 @@ div {
     height: 50%;
 }
 
-h1 {
+#ems h1 {
     font-size: 40px;
     border: 1px solid black;
     /*line-height has to be 200% of font-size*/
@@ -20,7 +20,7 @@ h1 {
     line-height: 200%;
 }
 
-h2 {
+#ems h2 {
     /*twice the font-size of parent element*/
     font-size: 2em;
     /*
@@ -31,11 +31,11 @@ h2 {
     margin-left: 1em;
 }
 
-p {
+#ems p {
     font-size:0.8em;
 }
 
-article {
+#ems article {
     font-size: 30px;
 }
 
@@ -48,4 +48,28 @@ button {
     border-radius: 0.5em;
     background-color: #2a9d8f;
     color: white;
+}
+
+/*problem of using em*/
+#ems ul {
+    font-size: 1.5em;
+}
+
+/*
+* rem means root ems
+*/
+
+html {
+    font-size: 30px;
+}
+#rems h2 {
+    font-size: 3rem;
+}
+
+#rems h3 {
+    font-size: 2rem;
+}
+
+#rem ul {
+    font-size: 0.8rem;
 }
