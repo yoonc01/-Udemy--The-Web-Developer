@@ -11,6 +11,7 @@
 6. [CSS 기초](#section6-css-기초)
 7. [CSS 선택자](#section7-css-선택자)
 8. [CSS 박스 모델](#section8-css-박스-모델)
+9. [유용한 CSS 속성](#section9-유용한-css-속성)
 
 ### Section1 (OT)
 ---
@@ -89,3 +90,16 @@
 - **관련 PR**
   - [CSS 박스 모델 PR](https://github.com/yoonc01/-Udemy--The-Web-Developer/pull/2)
 
+### Section9 (유용한 CSS 속성)
+- **내용**
+  - opacity와 alpha 속성 추가하기
+  - position 속성 추가하기
+  - transition을 이용하여 변화를 smooth하게 진행하기
+  - transform을 이용하여 모양 및 위치 변형하기
+  - hover 시 변하는 button 만들기
+  - background 속성에 대한 학습
+  - photosite 만들기 및 whitespace의 방지를 위한 html 작성법
+
+
+- **관련 PR**
+  - [유용한 CSS 속성 PR](https://github.com/yoonc01/-Udemy--The-Web-Developer/pull/3)
