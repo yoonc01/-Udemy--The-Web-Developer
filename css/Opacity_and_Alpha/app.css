@@ -1,0 +1,25 @@
+section {
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    /*rgba의 투명도는 배경색에만 영향을 미치지만*/
+    background-color: rgba(255, 255, 255, 0.7);
+    /*using hex however rgba is more visible*/
+    color: #00cca0b9;
+}
+
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    /*
+    * opacity는 div 전체에 영향을 미친다.
+    * 어찌보면 당연한 것이긴 하다.
+    */
+    opacity: 0.3;
+}
