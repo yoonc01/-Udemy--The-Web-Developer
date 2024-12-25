@@ -1,0 +1,217 @@
+/*universal selector*/
+* {
+    color: black;
+}
+
+/*element selector*/
+button {
+    background-color: #A8DADC;
+    font-size: 30px;
+}
+
+body {
+    background-color: #F1FAEE;
+}
+
+span {
+    color: #457B9D;
+}
+
+/*select list*/
+h1, h2 {
+    color: #1D3557;
+    background-color: darkslateblue;
+}
+
+/*id selector*/
+#signup {
+    background-color: #1D3557;
+    color: #F1FAEE;
+}
+
+/*class selector*/
+.tag {
+    background-color: #E63946;
+    color: #F1FAEE;
+    font-size: 16px;
+}
+
+/*
+*         descendant selector
+* space means anchor tag which are inside post class
+*/
+.post a {
+    color: #457B9D;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a {
+    color: #E63946;
+}
+
+/*
+* adjacent selector(not commanly unsed)
+*   a + b means tag b(s) next to a(s)
+*/
+
+input + button {
+    background-color: pink;
+}
+
+h2 + button {
+    font-size: 20px;
+    background-color: magenta;
+}
+
+/*
+* direct child selector
+*   a > b means tag b(s) that are direct children of a `a`
+*/
+
+footer > a {
+    color: #A8DADC;
+}
+
+/*
+* attribute selector
+* tag[attribute="something"] {}
+*/
+
+input[type="password"] {
+    color: green;
+}
+
+/*
+* same with section.post
+*/
+
+section[class="post"] {
+    background-color: purple;
+}
+
+/*
+* containing google
+*/
+a[href*="google"] {
+    color: magenta;
+}
+
+/*
+* muti attribute
+*/
+
+a[href*="google"][target="_blank"] {
+    color: magenta;
+}
+
+
+/*
+* ending ".org"
+*/
+
+a [href$=".org"] {
+    font-style: italic;
+}
+
+/*
+* pseudo classes
+* use :
+*/
+
+/*select any <button> element which are in post class when "hovered"*/
+.post button:hover {
+    background-color: #E63946;
+    color: #F1FAEE;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+/*when active(click and activated)*/
+.post button:active {
+    background-color: #02C39A;
+}
+
+/*select nth element*/
+.post:nth-of-type(2) {
+    background-color: #DFE8DC;
+}
+
+/*select every nth element*/
+.post:nth-of-type(2n) {
+    background-color: #DFE8DC;
+}
+
+/*odd numbers*/
+.post:nth-of-type(2n + 1) {
+    background-color: #DFE8DC;
+}
+
+/*
+* pseudo elements
+* use :: but most of browers don't care
+*/
+
+h2::first-letter {
+    font-size: 50px;
+}
+/*브라우저에 보이는 첫 줄*/
+p::first-line {
+    color: purple;
+}
+
+/*하이라이트해서 표시하는 거(마우스로 드래그)*/
+::selection {
+    background-color: #FCBF49;
+}
+
+/*
+* ::selection과 *::selection은 우선 순위에서 차이가 있다.
+* 단순히 기본 스타일링을 원한 것이라면 ::selection으로 충분
+*/
+
+/*add content*/
+h1::before {
+    content: "★ ";
+    color: gold;
+}
+
+h1::after {
+    content: " ★";
+    color: gold;
+}
+
+/*
+* cascade(blue wins!)
+* the style declared later overrides earlier styles
+* same in css files
+*/
+
+h1 {
+    color: white;
+}
+
+h1 {
+    color: blue;
+}
+
+/*
+*   specificity
+*   how the brower decides which rules to apply
+*   when multiple rules could apply to the same element
+*   more specific wins
+*   ID > ClASS > ELEMENT
+*   specificity.png 참고
+*/
+.post button:hover {
+    background-color: #E63946;
+    color: #F1FAEE;
+}
+
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+}
+
