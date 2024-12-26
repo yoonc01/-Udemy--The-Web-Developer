@@ -12,6 +12,7 @@
 7. [CSS 선택자](#section7-css-선택자)
 8. [CSS 박스 모델](#section8-css-박스-모델)
 9. [유용한 CSS 속성](#section9-유용한-css-속성)
+10. [Flex 박스와 Media Query](#section10-Flexbox와-Media-Query)
 
 ### Section1 (OT)
 ---
@@ -103,3 +104,11 @@
 
 - **관련 PR**
   - [유용한 CSS 속성 PR](https://github.com/yoonc01/-Udemy--The-Web-Developer/pull/3)
+ 
+### section10 (Flexbox와 Media Query)
+- **내용**
+  - Flexbox 학습
+  - MediaQuery 학습
+
+- **관련 PR**
+  - [Flexbox와 Media Query PR](https://github.com/yoonc01/-Udemy--The-Web-Developer/pull/4)
