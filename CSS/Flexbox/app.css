@@ -1,0 +1,95 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+
+    /* 
+     Flexbox를 통해 요소를 두 축(main axis와 cross axis) 기준으로 배치하고 정렬합니다.
+
+     축 설명:
+     - main axis: 요소가 배치되는 주요 축(기본값은 왼쪽에서 오른쪽)
+     - cross axis: main axis에 수직인 축(기본값은 위에서 아래)
+    */
+
+     /* main axis 방향 변경: */
+
+     flex-direction: row; /* 기본값, 왼쪽에서 오른쪽 */
+     flex-direction: row-reverse; /* 오른쪽에서 왼쪽 */
+     flex-direction: column; /* 위에서 아래 */
+     flex-direction: column-reverse; /* 아래에서 위 */
+
+     /* main axis 기준 정렬: */
+
+     justify-content: flex-start; /* 기본값, 시작점에 정렬 */
+     justify-content: flex-end; /* 끝점에 정렬 */
+     justify-content: center; /* 중앙에 정렬 */
+     justify-content: space-between; /* 요소들 사이에 균등 간격 */
+     justify-content: space-around; /* 요소 양쪽에 동일한 여백 */
+     justify-content: space-evenly; /* 요소 사이 및 양쪽 간격을 동일하게 배분 */
+
+     /* 줄바꿈 설정 (cross axis 방향으로 줄 추가): */
+
+     flex-wrap: nowrap; /* 기본값, 모든 요소를 한 줄에 배치 */
+     flex-wrap: wrap; /* 요소가 공간을 초과하면 다음 줄로 이동 */
+     flex-wrap: wrap-reverse; /* 다음 줄로 이동하되 역순으로 배치 */
+
+     /* cross axis 기준 정렬: */
+
+     align-items: flex-start; /* 시작점에 정렬 */
+     align-items: flex-end; /* 끝점에 정렬 */
+     align-items: center; /* 중앙에 정렬 */
+     align-items: baseline; /* 텍스트 기준선에 맞춰 정렬 */
+
+     /* 여러 줄 정렬 (flex-wrap이 wrap 또는 wrap-reverse인 경우): */
+
+     align-content: center; /* 모든 줄을 중앙에 정렬 */
+     align-content: space-between; /* 줄 사이에 균등 간격 */
+     align-content: space-around; /* 줄 양쪽에 동일한 간격 */
+     align-content: space-evenly; /* 모든 줄 사이 간격을 동일하게 배분 */
+
+     /*예시*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#container div {
+     /* 개별 요소 정렬: */
+
+     align-self: flex-start; /* cross axis 시작점에 정렬 */
+     align-self: flex-end; /* cross axis 끝점에 정렬 */
+     align-self: center; /* cross axis 중앙에 정렬 */
+     align-self: baseline; /* 텍스트 기준선에 맞춰 정렬 */
+
+     /* 요소의 크기 설정 (main axis 기준): */
+
+     flex-basis: 400px; /* 요소의 기본 크기 지정 */
+
+     /* 남는 공간 차지 비율: */
+
+     flex-grow: 1; /* 요소가 컨테이너의 남는 공간을 얼마나 차지할지 결정 */
+     /* 예: flex-grow 값이 1:2인 두 요소는 남는 공간을 1:2 비율로 나눔 */
+
+     /* 공간 부족 시 축소 비율: */
+
+     flex-shrink: 1; /* 요소가 컨테이너보다 클 때 축소되는 비율 */
+     /* 예: flex-shrink 값이 1:2인 두 요소는 첫 번째 요소보다 두 번째 요소가 두 배로 축소됨 */
+
+     /* 축약형: */
+
+     /* flex: flex-grow | flex-shrink | flex-basis; */
+     /* 예: flex: 1 0 200px; -> flex-grow: 1, flex-shrink: 0, flex-basis: 200px */
+
+    width: 200px;
+    height: 200px;
+}
