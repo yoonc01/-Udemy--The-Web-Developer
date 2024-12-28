@@ -13,6 +13,7 @@
 8. [CSS 박스 모델](#section8-css-박스-모델)
 9. [유용한 CSS 속성](#section9-유용한-css-속성)
 10. [Flex 박스와 Media Query](#section10-Flexbox와-Media-Query)
+11. [반응형 프로젝트](#section11-Responsive-Project)
 
 ### Section1 (OT)
 ---
@@ -112,3 +113,10 @@
 
 - **관련 PR**
   - [Flexbox와 Media Query PR](https://github.com/yoonc01/-Udemy--The-Web-Developer/pull/4)
+
+### section11 (Responsive Project)
+- **내용**
+  - 반응형 웹 만들기
+ 
+- **관련 PR**
+  - [Responsive Project PR](https://github.com/yoonc01/-Udemy--The-Web-Developer/pull/5)
