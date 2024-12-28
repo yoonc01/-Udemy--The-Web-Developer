@@ -63,10 +63,9 @@ body {
 /* make mobile version first */
 .panel {
     background-color: white;
-    border-radius: 10px;
     padding: 15px 25px;
     width: 100%;
-    max-width: 960px;
+    max-width: 920px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -140,4 +139,20 @@ body {
 
 .pricing-button.is-featured:hover, .pricing-button.pricing-botton.is-featured:focus {
     background-color: #269aff;
+}
+
+@media (min-width: 900px) {
+    .panel {
+        flex-direction: row;
+        border-radius: 10px;
+    }
+    
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px;
+    }
+    .pricing-plan:last-child {
+        border-right: none;
+    }
 }
