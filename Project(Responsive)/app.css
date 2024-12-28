@@ -132,3 +132,13 @@ body {
 .pricing-botton:hover, .pricing-botton:focus {
     background-color: #e1f1ff;
 }
+
+.pricing-botton.is-featured {
+    background-color: #48aaff;
+    color: white;
+}
+
+.pricing-botton.is-featured:hover, .pricing-botton.pricing-botton.is-featured:focus {
+    background-color: #48aaff;
+    color: white;
+}
