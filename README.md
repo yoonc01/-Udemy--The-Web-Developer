@@ -15,6 +15,8 @@
 10. [Flex 박스와 Media Query](#section10-Flexbox와-Media-Query)
 11. [반응형 프로젝트](#section11-Responsive-Project)
 12. 부트스트랩(지금은 건너 뛰고 다음 과정 진행)
+13. 부트스트랩을 이용한 과제(건너 뜀)
+14. [자바스크립트 기초](#section14-자바스크립트-기초)
 
 ### Section1 (OT)
 ---
@@ -121,3 +123,10 @@
  
 - **관련 PR**
   - [Responsive Project PR](https://github.com/yoonc01/-Udemy--The-Web-Developer/pull/5)
+
+### section14 (자바스크립트 기초)
+- **내용**
+  - 
+ 
+- **관련 PR**
+  - 
