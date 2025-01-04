@@ -126,7 +126,9 @@
 
 ### section14 (자바스크립트 기초)
 - **내용**
-  - 
+  - 기본형(Primitive Types)
+  - 변수와 선언 방법(let, const, var)
+  - naming
  
-- **관련 PR**
-  - 
+- **관련 commit**
+  - [javascript basic commit](https://github.com/yoonc01/-Udemy--The-Web-Developer/commit/6d6c86fda1d55192cb1282db8af6d4647d4fef3f)
