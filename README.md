@@ -14,6 +14,7 @@
 9. [유용한 CSS 속성](#section9-유용한-css-속성)
 10. [Flex 박스와 Media Query](#section10-Flexbox와-Media-Query)
 11. [반응형 프로젝트](#section11-Responsive-Project)
+12. 부트스트랩(지금은 건너 뛰고 다음 과정 진행)
 
 ### Section1 (OT)
 ---
