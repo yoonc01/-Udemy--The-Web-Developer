@@ -7,13 +7,16 @@
 // NaN는 Not a Number이지만 숫자로 침(0 / 0 등)
 
 // String
+
 // Boolean(true or false)
 // use when performing logic
 
 // Null(typeof 시 object 반환 설계 결함으로 null은 기본형이 맞음)
+
 // Undefined
 
 // Symbol
+
 // Bigint
 
 /*

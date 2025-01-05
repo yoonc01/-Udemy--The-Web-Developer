@@ -1,4 +1,4 @@
-# Udemy - The Web Developer 부트캠프 2024
+# Udemy - The Web Developer 부트캠프
 
 ## 학습 내용
 
