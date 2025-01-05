@@ -17,6 +17,7 @@
 12. 부트스트랩(지금은 건너 뛰고 다음 과정 진행)
 13. 부트스트랩을 이용한 과제(건너 뜀)
 14. [자바스크립트 기초](#section14-자바스크립트-기초)
+15. [자바스크립트 문자열](#section15-자바스크립트-문자열)
 
 ### Section1 (OT)
 ---
@@ -131,4 +132,14 @@
   - naming
  
 - **관련 commit**
-  - [javascript basic commit](https://github.com/yoonc01/-Udemy--The-Web-Developer/commit/6d6c86fda1d55192cb1282db8af6d4647d4fef3f)
+  - [javascript basic commit](https://github.com/yoonc01/-Udemy--The-Web-Developer/commit/b3c9e972268a6b080349ae98844dee893c8df604)
+
+### section15 (자바스크립트 문자열)
+- **내용**
+  - 문자열(인덱스와 길이)
+  - 문자열 method
+  - 템플릿 문자열
+  - undefined, null
+ 
+- **관련 commit**
+  - [javascript string commit](https://github.com/yoonc01/-Udemy--The-Web-Developer/commit/7c7822f08d22c16f487af33de3d23c0e09700129)
