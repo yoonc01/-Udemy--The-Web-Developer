@@ -18,6 +18,10 @@
 13. 부트스트랩을 이용한 과제(건너 뜀)
 14. [자바스크립트 기초](#section14-자바스크립트-기초)
 15. [자바스크립트 문자열](#section15-자바스크립트-문자열)
+16. [자바스크립트 판단 내리기](#section16-자바스크립트-판단-내리기)
+17. [자바스크립트 배열](#section17-자바스크립트-배열)
+18. [자바스크립트 객체 리터럴](#section18-자바스크립트-객체-리터럴)
+19. [루프의 구조](#section19-루프의-구조) 
 
 ### Section1 (OT)
 ---
@@ -143,3 +147,27 @@
  
 - **관련 commit**
   - [javascript string commit](https://github.com/yoonc01/-Udemy--The-Web-Developer/commit/7c7822f08d22c16f487af33de3d23c0e09700129)
+
+### section16 (자바스크립트 판단 내리기)
+- **내용**
+  - 비교연산자
+  - === 과 == 의 차이
+  - Falsy(false, 0, "", null, undefined, NaN)과 Truthy(나머지)
+  - &&, ||, !
+
+### section17 (자바스크립트 배열)
+- **내용**
+  - push(끝에 추가 + 총 길이 반환), pop(끝 꺼내기 + 반환), shift(앞 꺼내기 + 반환), unshift(앞 추가 + 총 길이 반환)
+  - indexOf(찾는 것의 첫번째 인덱스 없으면 -1 반환), includes(가지고 있는지 확인 -> class 이름 확인할 때 많이 씀),
+  - slice(시작 인덱스[, 끝]), splice(시작 인덱스[, 삭제할 갯수[, 추가할 내용]])
+
+### section18 (자바스크립트 객체 리터럴)
+- **내용**
+  - key-value로 선언됨
+  - object[`표현식`] or object.key로 value에 접근
+
+### section19 (루프의 구조)
+- **내용**
+  - for, while 문
+  - for of는 value에 접근(of를 사용하기 위해서는 Symbol.iterator메서드를 가지고 있어야 함 객체 리터럴은 없어 for of 사용 불가)
+  - 객체를 순회하기 위해서는 for in을 사용하여 key를 순회해야 한다.(array도 객체이므로 for in 사용이 가능)
