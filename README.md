@@ -21,7 +21,9 @@
 16. [자바스크립트 판단 내리기](#section16-자바스크립트-판단-내리기)
 17. [자바스크립트 배열](#section17-자바스크립트-배열)
 18. [자바스크립트 객체 리터럴](#section18-자바스크립트-객체-리터럴)
-19. [루프의 구조](#section19-루프의-구조) 
+19. [루프의 구조](#section19-루프의-구조)
+20. [함수](#section20-함수)
+21. [고차 함수](#section21-고차-함수) 
 
 ### Section1 (OT)
 ---
@@ -171,3 +173,15 @@
   - for, while 문
   - for of는 value에 접근(of를 사용하기 위해서는 Symbol.iterator메서드를 가지고 있어야 함 객체 리터럴은 없어 for of 사용 불가)
   - 객체를 순회하기 위해서는 for in을 사용하여 key를 순회해야 한다.(array도 객체이므로 for in 사용이 가능)
+
+### section20 (함수)
+- **내용**
+  - 함수 선언
+  - return
+
+### section21 (고차 함수)
+- **내용**
+  - 함수 scope, 블록 scope, lexical scope
+  - 함수 반환하기
+  - 메서드 선언하기
+  - [this](https://medium.com/@limsungmook/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%8A%94-%EC%99%9C-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85%EC%9D%84-%EC%84%A0%ED%83%9D%ED%96%88%EC%9D%84%EA%B9%8C-997f985adb42)
