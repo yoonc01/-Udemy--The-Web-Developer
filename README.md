@@ -25,6 +25,7 @@
 20. [함수](#section20-함수)
 21. [고차 함수](#section21-고차-함수) 
 22. [자주 쓰는 메서드](#section22-자주-쓰는-메서드) 
+23. [모던 JS Feature](#section23-모던-JS-Feature) 
 
 ### Section1 (OT)
 ---
@@ -193,3 +194,13 @@
   - 화살표 함수
   - setTimeOut, setInterval, clearInterval
   - 화살표 함수의 this
+
+### section23 (모던 JS Feature)
+- **내용**
+  - 매개변수 기본값 설정하기
+  - Rest 매개변수
+  - Spread Syntax
+  - Destructuring(Array, object, params)
+  
+- **관련 commit**
+  - [Modern JS Feature](https://github.com/yoonc01/-Udemy--The-Web-Developer/commit/1a9e5e9abef1fa0ad1f6f58cb29b1eb94b36f1b7)
